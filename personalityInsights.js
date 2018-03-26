@@ -49,11 +49,3 @@ rl.question('Please enter a twitter Handle for Watson to analyze...', (handle) =
 
 });
 
-
-
-
-
-module.exports = {
-    getPersonality: getPersonality,
-    getTextSummary: getTextSummary
-};

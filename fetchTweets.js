@@ -27,14 +27,13 @@ const fetchTweets = (username) => {
             if (error) {
                 reject(Error(error));
             }
-
             // Filter out tweets with only relevant info
             filteredTweets = newTweets.map(function (tweet) {
                 return {
                     id: tweet.id_str,
                     language: tweet.lang,
                     contenttype: 'text/plain',
-                    content: tweet.text.replace('[^(\\x20-\\x7F)]*', ''),
+                    content: tweet.full_text.replace('[^(\\x20-\\x7F)]*', ''),
                     created: Date.parse(tweet.created_at),
                     reply: tweet.in_reply_to_screen_name != null
                 };

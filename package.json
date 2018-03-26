@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "dotenv": "^5.0.1",
+    "personality-text-summary": "^2.2.0",
     "twitter": "^1.7.1",
     "watson-developer-cloud": "^3.2.1"
   }
