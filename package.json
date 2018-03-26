@@ -1,0 +1,16 @@
+{
+  "name": "personality-insights-twitter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "twitter": "^1.7.1",
+    "watson-developer-cloud": "^3.2.1"
+  }
+}
